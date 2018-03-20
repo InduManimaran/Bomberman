@@ -4,8 +4,6 @@ import matplotlib
 import os, sys, time, datetime, json, random
 
 
-
-
 class Experience(object):
     def __init__(self, model, max_memory=100, discount=0.95):
         self.model = model

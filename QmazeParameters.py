@@ -51,6 +51,7 @@ actions_dict = {
 
 num_actions = len(actions_dict)
 
+epsilon = 0.4
 
 
 
