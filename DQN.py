@@ -22,8 +22,7 @@ class Experience(object):
 
     #  Predict the next state of the maze
     def predict(self, envstate):
-        return self.
-        model.predict(envstate)[0]
+        return self.model.predict(envstate)[0]
 
     def get_data(self, data_size=10):
         env_size = self.memory[0][0].shape[1]   # envstate 1d size (1st element of episode)

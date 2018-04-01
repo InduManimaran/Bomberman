@@ -1,15 +1,13 @@
 from __future__ import print_function
 
-
-import numpy as np
-import time
 from buildModel import *
 from qtrain import *
-
+from QmazeParameters import *
 
 
 if __name__ == '__main__':
-
+	
+	global maze
 	#qmaze = Qmaze(maze)
 
 	model = build_model(maze)
