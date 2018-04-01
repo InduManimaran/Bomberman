@@ -3,7 +3,7 @@
 This is a simulation of Bomberman using the Reinforcement Learning technique 'Q-Learning'.
 
 #### Environment Description:
-The dimension of the maze is 10 x 10.Thre are three types of cells in the maze are:
+The dimension of the maze is 10 x 10.Thre are three types of cells in the maze .They are:
 -free cells, that the bomberman can move to 
 -obstacles,  that the bomberman can clear by placing a bomb in the viscinity of the obstacle
 -walls, that the bomberman cannot destroy  
